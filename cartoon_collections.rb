@@ -23,9 +23,12 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   planeteer_calls.min_by do |element| element.length
-  
-    element = element.length
-    element == false
+    
+    if element.length > element
+      element == true
+    else
+      element == true
+    end
   
   end
   
