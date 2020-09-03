@@ -25,6 +25,8 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls.map do |element|
     if element.length(4)
       element == true
+    else
+      element == false
     end
   end
   
