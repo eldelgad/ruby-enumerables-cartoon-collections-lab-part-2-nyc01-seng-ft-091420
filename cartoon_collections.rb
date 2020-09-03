@@ -22,9 +22,9 @@ def long_planeteer_calls(planeteer_calls)
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
   # Return the boolean result of this check
   
-  planeteer_calls.min_by do |element| element.length
+  planeteer_calls.min_by(4) do |element| element.length
     
-    if element.length > element.min(4)
+    if element.length > 4
       element == true
     else
       element == true
