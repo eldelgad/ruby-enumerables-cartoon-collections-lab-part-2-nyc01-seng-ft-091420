@@ -24,12 +24,11 @@ def long_planeteer_calls(planeteer_calls)
   
   planeteer_calls.min_by(4) do |element| element.length
     
-    if element > 4
-      element == true
+    if element.length > 4
+      return true
     else
-      element == true
+      return false
     end
-     element
   end
   
 end
