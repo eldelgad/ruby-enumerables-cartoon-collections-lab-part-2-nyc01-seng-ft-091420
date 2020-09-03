@@ -29,7 +29,7 @@ def long_planeteer_calls(planeteer_calls)
     else
       element == true
     end
-  
+     element
   end
   
 end
