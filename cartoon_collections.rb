@@ -40,7 +40,7 @@ def find_valid_calls(planeteer_calls)
   
   planeteer_calls.map do |element| 
     
-    valid_calls == element
+    valid_calls != element
     
   end
   
