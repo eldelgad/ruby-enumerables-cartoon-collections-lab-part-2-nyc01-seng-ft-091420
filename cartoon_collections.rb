@@ -41,6 +41,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.map do |element| 
     if valid_calls == element
       return true
+    end
   end
   
 end
