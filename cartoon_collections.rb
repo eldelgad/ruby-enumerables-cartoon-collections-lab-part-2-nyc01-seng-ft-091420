@@ -24,7 +24,7 @@ def long_planeteer_calls(planeteer_calls)
   
   planeteer_calls.min_by do |element| element.length
   
-    
+    element
   
   end
   
