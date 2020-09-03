@@ -23,7 +23,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   planeteer_calls.map do |element|
-    if element 
+    if element.length
       element == true
   
 end
