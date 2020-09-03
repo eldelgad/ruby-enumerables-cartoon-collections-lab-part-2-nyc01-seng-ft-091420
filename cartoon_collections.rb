@@ -23,7 +23,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   planeteer_calls.min_by(4) do |element| element.length
-    element
+    element == true
   end
   
 end
