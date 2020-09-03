@@ -23,6 +23,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   planeteer_calls.map do |element| element.length
+  
     if element.min_by(4)
       element == true
     else
